@@ -57,16 +57,38 @@ p {
 }
 
 /* Projects Section */
-.projects .project-card {
+/* Styling for project cards */
+.project-card {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.projects .project-card a {
-    color: #007bff;
+    border-radius: 8px; /* Rounded corners for the card */
+    text-align: center;
 }
 
+.project-card a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 4px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effects for the button */
+.project-card a:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Active state for the button */
+.project-card a:active {
+    background-color: #004085; /* Even darker blue when clicked */
+    transform: translateY(0); /* Button returns to normal position */
+}
 /* Contact Form */
 form {
     display: flex;
