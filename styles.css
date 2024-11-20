@@ -80,13 +80,13 @@ p {
 
 /* Hover effects for the button */
 .projects .project-card a:hover {
-    background-color: #0056b3; /* Darker blue when hovered */
+    background-color: #02111B; /* color when hovered */
     transform: translateY(-2px); /* Slight lift on hover */
 }
 
 /* Active state for the button */
 .projects .project-card a:active {
-    background-color: #004085; /* Even darker blue when clicked */
+    background-color: #02111B; /* color when clicked */
     transform: translateY(0); /* Button returns to normal position */
 }
 /* Contact Form */
