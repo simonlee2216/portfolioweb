@@ -63,7 +63,7 @@ p {
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px; /* Rounded corners for the card */
-    text-align: left;
+    text-align: center;
 }
 
 .projects .project-card a {
@@ -75,6 +75,7 @@ p {
     font-weight: 500;
     border-radius: 4px; /* Rounded corners for the button */
     transition: background-color 0.3s ease, transform 0.2s ease;
+    float: left;
 }
 
 /* Hover effects for the button */
