@@ -57,8 +57,7 @@ p {
 }
 
 /* Projects Section */
-/* Styling for project cards */
-.project-card {
+.projects .project-card {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
@@ -67,7 +66,7 @@ p {
     text-align: center;
 }
 
-.project-card a {
+.projects .project-card a {
     display: inline-block;
     padding: 12px 24px;
     background-color: #007bff; /* Blue background color */
@@ -79,13 +78,13 @@ p {
 }
 
 /* Hover effects for the button */
-.project-card a:hover {
+.projects .project-card a:hover {
     background-color: #0056b3; /* Darker blue when hovered */
     transform: translateY(-2px); /* Slight lift on hover */
 }
 
 /* Active state for the button */
-.project-card a:active {
+.projects .project-card a:active {
     background-color: #004085; /* Even darker blue when clicked */
     transform: translateY(0); /* Button returns to normal position */
 }
