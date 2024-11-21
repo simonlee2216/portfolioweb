@@ -75,7 +75,7 @@ p {
     font-weight: 500;
     border-radius: 4px; /* Rounded corners for the button */
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin-left: 0;
+    margin: 0 auto;
 }
 
 /* Hover effects for the button */
