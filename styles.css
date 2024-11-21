@@ -62,20 +62,23 @@ p {
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px; /* Rounded corners for the card */
-    text-align: center;
+    border-radius: 40px; /* Rounded corners for the card */
+    position: relative;
 }
 
 .projects .project-card a {
     display: inline-block;
+    text-align: right;
     padding: 12px 24px;
     background-color: #5D737E; /* Button background color */
     color: white;
     text-decoration: none;
     font-weight: 500;
-    border-radius: 4px; /* Rounded corners for the button */
+    border-radius: 40px; /* Rounded corners for the button */
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 0 auto;
+    position: absolute; /* Position the button absolutely within the container */
+    right: 20px; /* Align button to the right */
+    bottom: 10px; /* Optional: Adjust vertical positioning */
 }
 
 /* Hover effects for the button */
