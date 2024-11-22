@@ -18,6 +18,9 @@ body {
 nav {
     background-color: #333;
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 nav ul {
     list-style-type: none;
@@ -31,6 +34,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
+}
+nav ul li a.active {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Section Styles */
@@ -63,12 +71,11 @@ p {
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 40px; /* Rounded corners for the card */
-    position: relative;
+    text align: center;
 }
 
 .projects .project-card a {
     display: inline-block;
-    text-align: right;
     padding: 12px 24px;
     background-color: #5D737E; /* Button background color */
     color: white;
@@ -76,11 +83,7 @@ p {
     font-weight: 500;
     border-radius: 40px; /* Rounded corners for the button */
     transition: background-color 0.3s ease, transform 0.2s ease;
-    position: absolute; /* Position the button absolutely within the container */
-    right: 20px; /* Align button to the right */
-    bottom: 10px; /* Optional: Adjust vertical positioning */
 }
-
 /* Hover effects for the button */
 .projects .project-card a:hover {
     background-color: #02111B; /* color when hovered */
