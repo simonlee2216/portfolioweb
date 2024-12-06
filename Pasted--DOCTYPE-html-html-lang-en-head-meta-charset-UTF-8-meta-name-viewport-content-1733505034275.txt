@@ -47,11 +47,6 @@
                 <a href="https://github.com/simonlee2216/setscene" target="_blank" class="button">View on GitHub</a>
             </div>
             <div class="project-card">
-                <h3>Flask App with CI/CD Pipeline</h3>
-                <p>Set up a basic Flask app with an automated CI/CD pipeline using GitHub Actions. The pipeline automatically runs tests using pytest on every push or pull request to the main branch, ensuring code quality and seamless deployment.</p>
-                <a href="https://github.com/simonlee2216/ci-cd-example" target="_blank" class="button">View on GitHub</a>
-            </div>
-            <div class="project-card">
                 <h3>Auto-Updating Data Visualizations</h3>
                 <p>Built a real-time visualization system using Python, AWS Lambda, and Matplotlib. Automated data updates with AWS S3 and CloudWatch.</p>
                 <a href="https://github.com/simonlee2216/auto-visualization" target="_blank" class="button">View on GitHub</a>
