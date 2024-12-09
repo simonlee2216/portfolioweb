@@ -1,100 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simon Lee - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Navbar -->
     <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <!-- Home Section -->
     <section id="home" class="section home">
-        <div class="container">
-            <h1>Hello, I'm Simon</h1>
-            <p>I'm an Electrical and Computer Engineering student at Carnegie Mellon University with a passion for building impactful solutions.</p>
-        </div>
+      <div class="container">
+        <h1>Hello, I'm Simon</h1>
+        <p>
+          I'm an Electrical and Computer Engineering student at Carnegie Mellon
+          University with a passion for building impactful solutions.
+        </p>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="section about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am an Electrical and Computer Engineering student at Carnegie Mellon University, with a strong foundation in programming languages like Python, C/C++, and Java. I am passionate about developing scalable, efficient systems that address real-world challenges and honing my skills in software development, system design, and problem-solving.</p>
-            <p>My interests lie at the intersection of software and hardware, where I enjoy tackling complex problems through innovative projects such as optical systems design, cloud-based applications, and machine learning models. I aspire to contribute to technological advancements shaping the future of engineering while continuously learning and collaborating on inspiring, impactful projects.</p>
-        </div>
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am an Electrical and Computer Engineering student at Carnegie Mellon
+          University, with a strong foundation in programming languages like
+          Python, C/C++, and Java. I am passionate about developing scalable,
+          efficient systems that address real-world challenges and honing my
+          skills in software development, system design, and problem-solving.
+        </p>
+        <p>
+          My interests lie at the intersection of software and hardware, where I
+          enjoy tackling complex problems through innovative projects such as
+          optical systems design, cloud-based applications, and machine learning
+          models. I aspire to contribute to technological advancements shaping
+          the future of engineering while continuously learning and
+          collaborating on inspiring, impactful projects.
+        </p>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="section projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="project-card">
-                <h3>Set Scene</h3>
-                <p>Developed a pipeline integrating ResNet-50, BLIP, and GPT-2 to generate narrative descriptions of scenes. Optimized with model caching and preprocessing.</p>
-                <a href="https://github.com/simonlee2216/setscene" target="_blank" class="button">View on GitHub</a>
-            </div>
-            <div class="project-card">
-                <h3>Flask App with CI/CD Pipeline</h3>
-                <p>Set up a basic Flask app with an automated CI/CD pipeline using GitHub Actions. The pipeline automatically runs tests using pytest on every push or pull request to the main branch, ensuring code quality and seamless deployment.</p>
-                <a href="https://github.com/simonlee2216/ci-cd-example" target="_blank" class="button">View on GitHub</a>
-            </div>
-            <div class="project-card">
-                <h3>Auto-Updating Data Visualizations</h3>
-                <p>Built a real-time visualization system using Python, AWS Lambda, and Matplotlib. Automated data updates with AWS S3 and CloudWatch.</p>
-                <a href="https://github.com/simonlee2216/auto-visualization" target="_blank" class="button">View on GitHub</a>
-            </div>
-            <div class="project-card">
-                <h3>VGA Breakout</h3>
-                <p>Designed sequential components and hardware threads using SystemVerilog. Synthesized designs onto FPGA boards for demonstration.</p>
-                <a href="https://github.com/simonlee2216/vga-breakout" target="_blank" class="button">View on GitHub</a>
-            </div>
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-card">
+          <div class="project-description">
+            <h3>Set Scene</h3>
+            <p>Developed a pipeline integrating ResNet-50, BLIP, and GPT-2 
+               to generate narrative descriptions of scenes. Optimized with 
+               model caching and preprocessing.
+            </p>
+          </div>
+          <div class="github-btn">
+            <a href="https://github.com/simonlee2216/setscene" target="_blank">
+              <img src="https://cdn.glitch.global/539c294e-5cdd-4170-a731-1a146481c272/github-mark.png?v=1733753004972" alt="GitHub" />
+            </a>
+          </div>
         </div>
+
+        <div class="project-card">
+          <div class="project-description">
+            <h3>Flask App with CI/CD Pipeline</h3>
+            <p>
+              Set up a basic Flask app with an automated CI/CD pipeline using
+              GitHub Actions. The pipeline automatically runs tests using pytest
+              on every push or pull request to the main branch, ensuring code
+              quality and seamless deployment.
+            </p>
+          </div>
+          <div class="github-btn">
+            <a href="https://github.com/simonlee2216/ci-cd-example" target="_blank">
+              <img src="githublogo.png" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-description">
+            <h3>Auto-Updating Data Visualizations</h3>
+            <p>
+              Built a real-time visualization system using Python, AWS Lambda, and
+              Matplotlib. Automated data updates with AWS S3 and CloudWatch.
+            </p>
+          </div>
+          <div class="github-btn">
+            <a href="https://github.com/simonlee2216/auto-visualization" target="_blank">
+              <img src="githublogo.png" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-description">
+            <h3>VGA Breakout</h3>
+            <p>
+              Designed sequential components and hardware threads using
+              SystemVerilog. Synthesized designs onto FPGA boards for
+              demonstration.
+            </p>
+          </div>
+          <div class="github-btn">
+            <a href="https://github.com/simonlee2216/vga-breakout" target="_blank">
+              <img src="githublogo.png" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Resume Section -->
     <section id="resume" class="section resume">
-    <div class="container">
+      <div class="container">
         <h2>Resume</h2>
-        <embed src="Simon Lee Resume.pdf" type="application/pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        </div>
+        <embed
+          src="Simon Lee Resume.pdf"
+          type="application/pdf"
+          width="100%"
+          height="600px"
+          style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
+        />
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="mailto:simonlee@andrew.cmu.edu" method="post" enctype="text/plain">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form action="mailto:simonlee@andrew.cmu.edu" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>Connect with me on <a href="https://www.linkedin.com/in/simonhoyoonlee/" target="_blank">LinkedIn</a> | <a href="https://github.com/simonlee2216" target="_blank">GitHub</a></p>
-        </div>
+      <div class="container">
+        <p>
+          Connect with me on
+          <a href="https://www.linkedin.com/in/simonhoyoonlee/" target="_blank">LinkedIn</a> |
+          <a href="https://github.com/simonlee2216" target="_blank">GitHub</a>
+        </p>
+      </div>
     </footer>
 
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
