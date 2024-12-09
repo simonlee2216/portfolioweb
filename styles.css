@@ -1,6 +1,6 @@
 /* Global Variables */
 :root {
-  --primary-bg: #333;
+  --primary-bg: #73937E;
   --secondary-bg: #f8f8f8;
   --text-color: #333;
   --light-text: #fff;
@@ -71,6 +71,7 @@ h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
   text-align: center;
+  color: var(--primary-bg)
 }
 
 p {
