@@ -111,6 +111,102 @@ p {
   justify-content: center;
 }
 
+/* Work Experience Timeline */
+.work-experience {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 50px;
+}
+
+.timeline-item {
+  margin-bottom: 60px;
+  position: relative;
+  padding-left: 50px;
+  text-align: left;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: translateX(10px); /* Add a hover effect to shift the item */
+}
+
+.timeline-item h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  color: #555555;
+  text-align: left;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.timeline-item:hover h3,
+.timeline-item:hover p {
+  color: #414F2B; /* Change text color on hover */
+}
+
+.timeline-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 20px; 
+  height: 20px;
+  background: #414F2B; 
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease;
+}
+
+.timeline-item:hover:before {
+  box-shadow: 0 0 15px #C6D4AF; /* Increase glow on hover */
+}
+
+.timeline-item:after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  height: 100%;
+  width: 2px;
+  background-color: #414F2B; 
+  transition: height 0.3s ease;
+}
+
+.timeline-item:hover:after {
+  height: 120%; /* Extend line on hover for dramatic effect */
+}
+
+.timeline-item:last-child:after {
+  display: none; /* No line after the last item */
+}
+
+.timeline-item:last-child:before {
+  content: "🚀"; /* Add a unique icon for the last item */
+  position: absolute;
+  left: -25px;
+  top: 0;
+  font-size: 35px;
+  color: #007bff;
+  transition: transform 0.3s ease;
+}
+
+.timeline-item:last-child:hover:before {
+  transform: scale(1.3); /* Scale up the icon on hover */
+}
+
+
+
 /* General Project Card Styles */
 .project-card {
   position: relative;
